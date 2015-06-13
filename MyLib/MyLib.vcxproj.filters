@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{36b536e5-42ed-49dd-92cd-820c3f9f66f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Dog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Fish.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Turtle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
