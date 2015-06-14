@@ -7,7 +7,7 @@ There are two ways to force link specify symbols from static library。
 * Linker Option use /INCLUDE xxx
 * Add code : #pragma comment(linker, "/include:xxx")
 
-Use #pragma is more flexible. So we can use **dumpbin"" tool to list all symbols, then generate Header File use  #pragma comment(linker, "/inculde:xxx") to inlude all symbols.
+Use #pragma is more flexible. So we can use **dumpbin** tool to list all symbols, then generate Header File use  #pragma comment(linker, "/inculde:xxx") to inlude all symbols.
 
 *Make sure **dumpbin.exe** be executed in Developer Command Prompt*
 
