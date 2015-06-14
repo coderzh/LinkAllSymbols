@@ -29,10 +29,10 @@ import re
 
 regex = re.compile(r"\s+.*\s([\?_]+.*)")
 
-exclude = ["Dog"]
+exclude = []
 
 def gen_header_file_for_lib(lib_path, header_path):
-    cmd = ['dumpbin.exe','/linkermember', lib_path]
+    cmd = ['dumpbin.exe','/linkermember:1', lib_path]
     lines = execute_command(cmd)
     symbols = find_matches(lines, regex, exclude)
 
